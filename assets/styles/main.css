@@ -60,7 +60,12 @@ svg:hover {
 }
 .g1 {
   background-image: var(--g1);
+  background-size: 100%;
   border: transparent;
+}
+a.g1:hover{
+  background-size: 300%;
+  transition: 1s all;
 }
 .g2 {
   background-image: var(--g2);
@@ -127,7 +132,7 @@ svg:hover {
   font-weight: 700;
 }
 .card-body {
-  padding: 2rem;
+  padding: 1.5rem 1.75rem;
 }
 .card-text {
   font-weight: 300;
