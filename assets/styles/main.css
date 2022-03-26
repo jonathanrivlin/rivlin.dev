@@ -127,6 +127,9 @@ a.g1:hover{
   transform: rotate(-45deg);
   margin-top: -18px;
 }
+.navbar-brand {
+  margin-left: 0;
+}
 .card-title {
   font-size: 1.45rem;
   font-weight: 700;
