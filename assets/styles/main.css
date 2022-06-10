@@ -11,6 +11,13 @@
     linear-gradient(300deg, hsl(271, 100%, 94%) 0%, hsl(210, 100%, 89%) 100%);
 }
 
+html {
+	overflow: scroll;
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
