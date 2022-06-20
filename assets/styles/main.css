@@ -75,10 +75,6 @@ svg {
   fill: var(--secondary);
 }
 
-svg:hover {
-  fill: var(--active);
-  transition: all 0.5s;
-}
 
 .gradient-700 {
   background-image: var(--gradient-700);
