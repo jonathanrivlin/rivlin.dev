@@ -199,6 +199,6 @@ a.gradient-700:hover {
 
   .g-lg-5,
   .gx-lg-5 {
-    --bs-gutter-x: 5rem;
+    --bs-gutter-x: 4rem;
   }
 }
