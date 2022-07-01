@@ -71,10 +71,6 @@ main p {
   font-size: 1.1rem !important;
 }
 
-svg {
-  fill: var(--secondary);
-}
-
 
 .gradient-700 {
   background-image: var(--gradient-700);
