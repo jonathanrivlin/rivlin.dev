@@ -24,7 +24,7 @@ body {
   line-height: 1.5;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 main {
@@ -219,8 +219,8 @@ a.gradient-700:hover {
   font-size: 1.2em;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-	padding-right: var(--bs-gutter-x,1.75rem);
-	padding-left: var(--bs-gutter-x,1.75rem);
+	padding-right: var(1.75rem);
+	padding-left: var(1.75rem);
 }
 @media (max-width: 62rem) {
   main {
