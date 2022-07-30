@@ -2,6 +2,7 @@
 
 :root {
   --main: hsl(224, 78%, 16%);
+  --main-darker: hsl(224, 78%, 7%);
   --lead: hsla(224, 78%, 16%, 0.7);
   --secondary: hsl(228, 10%, 47%);
   --active: hsl(213, 94%, 40%);
@@ -206,8 +207,15 @@ a.gradient-700:hover {
 .btn-primary,
 .btn-outline-primary:hover {
   color: #fff !important;
-  background-color: var(--main) !important;
-  border-color: var(--main) !important;
+  background-color: var(--main);
+  border-color: var(--main);
+  transition: background-color 0.3s;
+}
+
+.btn.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+  color: #fff !important;
+  background-color: var(--main-darker) !important;
+  border-color: var(--main-darker) !important;
 }
 
 .btn-link {
@@ -218,6 +226,7 @@ a.gradient-700:hover {
   line-height: 1.75;
   font-size: 1.2em;
 }
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 	padding-right: 1.75rem;
 	padding-left: 1.75rem;
