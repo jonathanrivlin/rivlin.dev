@@ -219,8 +219,8 @@ a.gradient-700:hover {
   font-size: 1.2em;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-	padding-right: var(1.75rem);
-	padding-left: var(1.75rem);
+	padding-right: 1.75rem;
+	padding-left: 1.75rem;
 }
 @media (max-width: 62rem) {
   main {
